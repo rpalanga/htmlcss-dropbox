@@ -34,13 +34,16 @@
   gap: 15px;
 }
 
-
+.list-2, .buttons{
+    gap: 10px;
+}
 
 .top .right .list-1 li, .top .left .list-2 li {
     list-style-type: none;
 }
 
 .top .left .buttons .Login{
-    
+    width: ;
 }
+
   
