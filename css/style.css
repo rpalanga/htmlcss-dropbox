@@ -90,17 +90,19 @@
 .container .description{
     border: 1px dotted red;
     height: 420px;
+
+    flex-grow: 1;
     
     /* test */
 }
 
 .container .img-Dp{
     border: 1px dotted red;
-    flex-grow: 
-    ;
+    flex-grow: 2;
+    
 
 }
-
+/* prima parte del main fatta  */
 
 
 
