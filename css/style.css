@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* regola di reset */
+
+.row{
+    display: flex;
+}
+
+.top{
+
+    border: 2px solid red;
+    /* test */
+    
+    justify-content: space-between;
+    
+    width: 100%;
+
+    background-color: #FFFFFF;
+
+    padding: 18px;
+}
+.right, .left{
+    gap: 20px;
+}
+
+.top .right .logo img{
+    width: 80px;
+    height: 18px;
+}
+.top .right .list-1 ul, .top .left .list-2 ul{
+  gap: 15px;
+}
+
+
+
+.top .right .list-1 li, .top .left .list-2 li {
+    list-style-type: none;
+}
+
+.top .left .buttons .Login{
+    
+}
+  
