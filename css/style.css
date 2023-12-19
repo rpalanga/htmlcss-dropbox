@@ -9,6 +9,8 @@
     display: flex;
 }
 .column{
+   
+   
     display: flex;
     flex-direction: column;
 
@@ -145,6 +147,138 @@
     height: 200px;
     width: 100%;
 }
+.partner{
+    border: 1px solid red;
+    /* test */
+    
+    width: 100%;
+    height: 450px;
+}
+.img-partner{
+    border: 1px solid red;
+    background-color: burlywood;
+    /* test */
+
+    height: 450px;
+    flex-grow: 1;
+
+    
+}
+    
+
+
+
+
+.text-partner {
+    border: 1px solid red;
+    background-color: brown;
+    
+    
+    /* test */
+
+    flex-grow: 2;
+
+}
+.title-operation{
+    background-color: darkgoldenrod;
+    
+    width: 100%;
+    height: 200px;
+
+}
+.operation{
+    
+    height: 400px;
+    flex-wrap: wrap;
+}
+.operation .img-operation{
+    border: 1px solid red;
+    background-color: coral;
+    
+    height: 200px;
+    width: calc(100% / 3);
+}
+.team{
+    height: 300px;
+    background-color: antiquewhite;
+    /* test */
+    width: 100%;
+}
+
+.box-container{
+    height: 640px;
+}
+.box{
+    border: red solid 1px;
+    height: 640px;
+    width: calc(100% / 3);
+}
+.middle-box{
+    background-color: brown;
+}
+.box-left, .box-right{
+    flex-wrap: wrap;
+}
+.box-img{
+    border: red solid 1px;
+    background-color: gray;
+
+    height: 320px;
+    width:calc(100% / 2);
+
+}
+
+.free-try{
+    height: 300px;
+    background-color: crimson;
+
+    width: 100%;
+}
+.question{
+    height: 300px;
+    background-color: darkolivegreen;
+
+    width: 100%;
+}
+
+/* inizio footer */
+.container-footer{
+    width: 100%;
+    
+    background-color: black;
+    /* reset */
+
+    padding: 30px;
+    
+}
+.lists{
+    height: 400px;
+    /* test */
+
+    max-width: 1200px;
+    flex-wrap: wrap;
+    
+
+}
+.list{
+    /* height: 80px; */
+    background-color: azure;
+
+    width: calc(100% / 5);
+
+
+}
+.language{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+    
+
+    
+
+
     
 
 
