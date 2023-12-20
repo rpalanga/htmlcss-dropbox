@@ -6,7 +6,7 @@
 
 /* regola di reset */
 
-.body {
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -203,7 +203,8 @@
     width: calc(100% / 3);
 }
 
-.business-cln h5 , .business-bottom h5 {
+.business-cln h5,
+.business-bottom h5 {
     padding: 10px;
     text-align: center;
 
@@ -212,7 +213,8 @@
     border-bottom: 1px solid rgba(00, 00, 00, 0.200);
 }
 
-.business-cln .pack , .business-bottom .pack {
+.business-cln .pack,
+.business-bottom .pack {
     font-weight: bolder;
     font-size: 22px;
 
@@ -222,7 +224,8 @@
     font-weight: lighter;
     font-size: 8px;
 }
-.money{
+
+.money {
     font-weight: bold;
 }
 
@@ -230,8 +233,8 @@ ul {
     list-style: none;
 }
 
-hr{
-    width:  50px;
+hr {
+    width: 50px;
 }
 
 
@@ -239,21 +242,26 @@ hr{
     padding: 10px;
 }
 
-.cln .button{
+.cln .button {
     display: inline-block;
+}
+
+.business-bottom {
+    margin-bottom: 150px;
 }
 
 /* fine della  colonne */
 
 .business-bottom {
     border: 1px solid rgba(00, 00, 00, 0.200);
-    
+
     /* test */
 
-    
+
     width: 100%;
 }
-.business-bottom h5{
+
+.business-bottom h5 {
     text-align: center;
 
     border-bottom: 1px solid rgba(00, 00, 00, 0.200);
@@ -261,48 +269,68 @@ hr{
     padding: 10px;
 }
 
-.business-bottom .relative{
+.business-bottom .relative {
     position: relative;
 }
-.business-bottom .relative .button{
+
+.business-bottom .relative .button {
     position: absolute;
     right: 30px;
     top: 30px;
 }
 
-.partner {
-    border: 1px solid red;
-    /* test */
+/* fine Business Plan */
 
+/* inizio sezione Partner */
+
+.partner {
     width: 100%;
-    height: 450px;
+
+    margin-bottom: 150px;
+
+
+
 }
 
 .img-partner {
-    border: 1px solid red;
-    background-color: burlywood;
-    /* test */
 
-    height: 450px;
-    flex-grow: 1;
-
+    width: 60%;
 
 }
 
+.img-partner img {
+    width: 100%;
 
-
-
+}
 
 .text-partner {
-    border: 1px solid red;
-    background-color: brown;
 
-
-    /* test */
-
-    flex-grow: 2;
+    width: 40%;
+    padding: 20px;
 
 }
+
+.text-partner h5 {
+    font-size: medium;
+}
+
+.partner .trova-partner {
+    display: inline-block;
+
+    border: 1px solid black;
+
+    padding: 5px;
+}
+
+/* fine sezione partner */
+
+
+
+
+
+
+
+
 
 .title-operation {
     background-color: darkgoldenrod;
