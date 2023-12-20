@@ -194,7 +194,7 @@
 }
 
 .business-cln .cln {
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.200);
 
     /* test */
 
@@ -207,7 +207,7 @@
 
     font-weight: lighter;
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(00, 00, 00, 0.200);
 }
 
 .business-cln .pack {
@@ -225,7 +225,9 @@ ul {
     list-style: none;
 }
 
-
+hr{
+    width:  50px;
+}
 
 
 
