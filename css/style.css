@@ -1,148 +1,196 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* regola di reset */
 
-.row{
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row {
     display: flex;
 }
-.column{
-   
-   
+
+.column {
+
+
     display: flex;
     flex-direction: column;
 
 }
+
 /* regole generali */
 
 /* ricordare di mettere display fixed */
 
-.top{
+.top {
 
-    border: 2px solid red;
-    /* test */
-    
+   
+
     justify-content: space-between;
-    
+
     width: 100%;
 
     background-color: #FFFFFF;
 
     padding: 18px;
 }
-.right, .left{
+
+.right,
+.left {
     gap: 20px;
 }
 
-.top .left .logo img{
-    
+.top .left .logo img {
+
     height: 18px;
 }
-.top .right .list-2 ul, .top .left .list-1 ul{
-  gap: 15px;
+
+.top .right .list-2 ul,
+.top .left .list-1 ul {
+    gap: 15px;
 }
 
-.list-2, .buttons{
+.list-2,
+.buttons {
     gap: 10px;
 }
 
-.top .right .list-2 li, .top .left .list-1 li {
+.top .right .list-2 li,
+.top .left .list-1 li {
     list-style-type: none;
 }
 
-.top .right .buttons .Login{
-    
-}
-.top .right .buttons .Start{
+.top .right .buttons .Login {}
+
+.top .right .buttons .Start {
     background-color: #2860F6;
-    
+
 }
 
 /* inizio del main  */
 
+#background {
+    background-color: #BACFE4;
 
-.container{
-    border: 1px solid red;
-    max-height: 740px;
-    /* test */
+}
+
+.container {
+    
 
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+
+    margin-bottom: 80px;
 }
 
-.container .title{
+.container .title {
     width: 100%;
-    height: 320px;
 
-    background-color: aqua;
-  
-  
-    /* test */
+    padding: 50px;
 }
 
-.container .specification{
+.container .title h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.container .specification {
     width: 100%;
-    height: 420px;
+    position: relative;
+    bottom: -40px;
+   
 
-    background-color: cadetblue;
-
-    /* test */
-
-}
-.container .description{
-    border: 1px dotted red;
-    height: 420px;
-
-    flex-grow: 1;
-    
-    background-color: chocolate;
-    /* test */
-}
-
-
-.container .img-Dp{
-    border: 1px dotted red;
-    flex-grow: 2;
     
 
 }
+
+.container .description {
+    width: 40%;
+
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.description .button{
+    background-color: #2860F6;
+    color: white;
+
+    padding: 4px;
+
+    text-decoration: none;
+}
+
+.description .fa-solid{
+    font-size: 35px;
+}
+
+
+    
+
+   
+
+
+.specification .img-Dp {
+   
+
+    width: 60%;
+
+
+}
+
+.specification .img-Dp img {
+    width: 100%;
+
+
+}
+
 /* prima parte del main fatta  */
 
-.container-big{
+.container-big {
     border-color: red dotted 1px;
-    
+
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.business-title{
-  width: 100%;
-  height: 200px;
+.business-title {
+    width: 100%;
+    height: 200px;
 
-  background-color: green;
+    background-color: green;
 
-  border: 1px solid red;
+    border: 1px solid red;
     /* test */
 }
 
-.business-cln{
+.business-cln {
     gap: 30px;
 }
 
-.business-cln .cln{
+.business-cln .cln {
     border: 1px solid red;
     background-color: grey;
     /* test */
-    
-    width: calc(100% / 3 );
+
+    width: calc(100% / 3);
     height: 300px;
 
 }
-.business-bottom{
+
+.business-bottom {
     border: 1px solid red;
     background-color: green;
     /* test */
@@ -150,14 +198,16 @@
     height: 200px;
     width: 100%;
 }
-.partner{
+
+.partner {
     border: 1px solid red;
     /* test */
-    
+
     width: 100%;
     height: 450px;
 }
-.img-partner{
+
+.img-partner {
     border: 1px solid red;
     background-color: burlywood;
     /* test */
@@ -165,9 +215,9 @@
     height: 450px;
     flex-grow: 1;
 
-    
+
 }
-    
+
 
 
 
@@ -175,44 +225,49 @@
 .text-partner {
     border: 1px solid red;
     background-color: brown;
-    
-    
+
+
     /* test */
 
     flex-grow: 2;
 
 }
-.title-operation{
+
+.title-operation {
     background-color: darkgoldenrod;
-    
+
     width: 100%;
     height: 200px;
 
 }
-.operation{
-    
+
+.operation {
+
     height: 400px;
     flex-wrap: wrap;
 }
-.operation .img-operation{
+
+.operation .img-operation {
     border: 1px solid red;
     background-color: coral;
-    
+
     height: 200px;
     width: calc(100% / 3);
 }
-.team{
+
+.team {
     height: 300px;
     background-color: antiquewhite;
     /* test */
     width: 100%;
 }
 
-.box-container{
+.box-container {
     /* height: calc(100vw / 3);
     width: calc(100% / 3); */
 }
-.box{
+
+.box {
     border: red solid 1px;
     /* height: 640px;
     width: calc(100% / 3); */
@@ -220,13 +275,17 @@
     height: calc(100vw / 3);
     width: calc(100% / 3);
 }
-.middle-box{
+
+.middle-box {
     background-color: brown;
 }
-.box-left, .box-right{
+
+.box-left,
+.box-right {
     flex-wrap: wrap;
 }
-.box-img{
+
+.box-img {
     border: red solid 1px;
     background-color: gray;
 
@@ -236,13 +295,14 @@
 
 }
 
-.free-try{
+.free-try {
     height: 300px;
     background-color: crimson;
 
     width: 100%;
 }
-.question{
+
+.question {
     height: 300px;
     background-color: darkolivegreen;
 
@@ -250,25 +310,31 @@
 }
 
 /* inizio footer */
-.container-footer{
-    width: 100%;
-    
+footer{
     background-color: black;
+
+
+}
+.container-footer {
+    width: 100%;
+
     /* reset */
 
     padding: 30px;
-    
+
 }
-.lists{
+
+.lists {
     height: 400px;
     /* test */
 
     max-width: 1200px;
     flex-wrap: wrap;
-    
+
 
 }
-.list{
+
+.list {
     /* height: 80px; */
     background-color: azure;
 
@@ -276,24 +342,9 @@
 
 
 }
-.language{
+
+.language {
     width: 100px;
     height: 100px;
     background-color: red;
 }
-
-    
-
-    
-
-
-    
-
-
-
-
-
-
-
-
-  
