@@ -183,6 +183,8 @@
 
 .business-cln {
     gap: 30px;
+
+    margin-bottom: 50px;
 }
 
 .space {
@@ -201,7 +203,7 @@
     width: calc(100% / 3);
 }
 
-.business-cln h5 {
+.business-cln h5 , .business-bottom h5 {
     padding: 10px;
     text-align: center;
 
@@ -210,7 +212,7 @@
     border-bottom: 1px solid rgba(00, 00, 00, 0.200);
 }
 
-.business-cln .pack {
+.business-cln .pack , .business-bottom .pack {
     font-weight: bolder;
     font-size: 22px;
 
@@ -219,6 +221,9 @@
 .business-cln .when {
     font-weight: lighter;
     font-size: 8px;
+}
+.money{
+    font-weight: bold;
 }
 
 ul {
@@ -230,20 +235,39 @@ hr{
 }
 
 
-
-
-
 .cln-1 {
     padding: 10px;
 }
 
+.cln .button{
+    display: inline-block;
+}
+
+/* fine della  colonne */
+
 .business-bottom {
-    border: 1px solid red;
-    background-color: green;
+    border: 1px solid rgba(00, 00, 00, 0.200);
+    
     /* test */
 
-    height: 200px;
+    
     width: 100%;
+}
+.business-bottom h5{
+    text-align: center;
+
+    border-bottom: 1px solid rgba(00, 00, 00, 0.200);
+
+    padding: 10px;
+}
+
+.business-bottom .relative{
+    position: relative;
+}
+.business-bottom .relative .button{
+    position: absolute;
+    right: 30px;
+    top: 30px;
 }
 
 .partner {
