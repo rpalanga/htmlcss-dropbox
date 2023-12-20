@@ -15,6 +15,9 @@
     flex-direction: column;
 
 }
+/* regole generali */
+
+/* ricordare di mettere display fixed */
 
 .top{
 
@@ -206,11 +209,15 @@
 }
 
 .box-container{
-    height: 640px;
+    /* height: calc(100vw / 3);
+    width: calc(100% / 3); */
 }
 .box{
     border: red solid 1px;
-    height: 640px;
+    /* height: 640px;
+    width: calc(100% / 3); */
+    /* test */
+    height: calc(100vw / 3);
     width: calc(100% / 3);
 }
 .middle-box{
@@ -223,8 +230,9 @@
     border: red solid 1px;
     background-color: gray;
 
-    height: 320px;
-    width:calc(100% / 2);
+    height: 50%;
+    width: 50%;
+    /* width:calc(100% / 2); */
 
 }
 
