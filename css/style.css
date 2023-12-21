@@ -64,6 +64,13 @@ body {
 .top .left .list-1 li {
     list-style-type: none;
 }
+.top .right .list-2 li:hover,
+.top .left .list-1 li:hover
+{
+    border-radius: 3px;
+    box-shadow: 0px 0px 9px #004090;
+    padding: 5px;
+}
 
 .top .right .buttons .Login {}
 
@@ -248,7 +255,7 @@ hr {
 .cln-1 {
     padding: 10px;
 }
-.cln .fa-solid{
+.cln-1 .fa-check{
     color: #3069F6 ;
 }
 
