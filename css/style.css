@@ -27,7 +27,8 @@ body {
 /* ricordare di mettere display fixed */
 
 .top {
-
+    position: fixed;
+    z-index: 1;
 
 
     justify-content: space-between;
@@ -90,6 +91,8 @@ body {
     margin-right: auto;
 
     margin-bottom: 80px;
+
+    padding-top: 80px;
 }
 
 .container .title {
@@ -525,10 +528,13 @@ hr {
 
 
 .question-container .border-bot{
-    padding: 20px;
+    padding-top: 45px;
+    padding-bottom: 45px;
     border-bottom: 1px solid black;
 
     font-weight: 700;
+
+    justify-content: space-between;
 }
 
 /* inizio footer */
