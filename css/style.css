@@ -68,6 +68,10 @@ body {
 
 .top .right .buttons .Start {
     background-color: #2860F6;
+    color: white;
+   
+    padding: 0px 5px;
+
 
 }
 
@@ -241,6 +245,9 @@ hr {
 .cln-1 {
     padding: 10px;
 }
+.cln .fa-solid{
+    color: #3069F6 ;
+}
 
 .cln .button {
     display: inline-block;
@@ -381,7 +388,7 @@ hr {
 }
 
 .box {
-    border: red solid 1px;
+    
     /* height: 640px;
     width: calc(100% / 3); */
     /* test */
@@ -414,7 +421,7 @@ hr {
 }
 
 .box-img {
-    border: black solid 1px;
+    
     
 
     height: 50%;
@@ -427,8 +434,8 @@ hr {
 
 .box-img img{
     transform: scale(0.3);
-    stroke:#FFFFFF;
-    fill: #FFFFFF;
+    
+    filter: invert(1);
 }
 
 .box-img #special {
@@ -501,9 +508,10 @@ hr {
 }
 
 .question {
-    
-
     width: 100%;
+    
+    margin-bottom: 100px;
+
 }
 .question-container{
     padding: 40px;
@@ -535,13 +543,12 @@ footer {
 
     /* reset */
 
-    padding: 30px;
+    padding-top: 100px;
 
 }
 
 .lists {
-   padding: 30px;
-    /* test */
+  
 
     max-width: 1200px;
     flex-wrap: wrap;
@@ -555,21 +562,28 @@ footer {
 
     width: calc(100% / 5);
 
-    padding: 50px;
+    margin-bottom: 100px;
 
     color: white;
 
 
 }
 .list li{
-    padding: 10px;
+    /* padding: 10px;s */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 .list h6{
     font-size: 15px;
+    padding-bottom: 20px;
 }
 
 .language {
     width: 100px;
     height: 100px;
-    background-color: red;
+   
+}
+.ita{
+    color: #928F8C;
 }
